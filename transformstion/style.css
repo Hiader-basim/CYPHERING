@@ -1,0 +1,108 @@
+head {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Cairo", sans-serif;
+  background-color: #f6f6f6;
+}
+/* header */
+
+header {
+  width: 100%;
+  background-color: #2980b9;
+}
+header .cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .cont h1 {
+  color: white;
+}
+header .cont ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .cont ul li {
+  padding: 20px;
+  font-size: 20px;
+}
+header .cont ul li a {
+  color: white;
+  height: 71px;
+}
+header .cont ul li:hover {
+  background-color: #3498db;
+}
+@media (max-width: 768px) {
+  header .cont {
+    flex-direction: column;
+  }
+  header .cont ul li {
+    padding: 20px 8px;
+    font-size: 15px;
+  }
+}
+/* header */
+
+/* name to binary */
+.name-to-binary {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.name-to-binary .box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+}
+.name-to-binary .box .header {
+  text-align: center;
+  width: 100%;
+  background-color: #2980b9;
+  color: white;
+}
+.name-to-binary .box .header h1 {
+  padding: 15px;
+}
+.name-to-binary .box .main {
+  min-width: 100%;
+  text-align: center;
+}
+.name-to-binary .box .main h2 {
+  color: #2980b9;
+  padding: 15px;
+}
+.name-to-binary .box .main input {
+  text-align: center;
+  font-size: 20px;
+  width: 100%;
+  border: none;
+  border-bottom: #2980b9 3px solid;
+  padding: 15px;
+}
+@media (max-width: 768px) {
+  .name-to-binary .box .main input {
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    margin: 0;
+  }
+}
+.name-to-binary .box .main .form {
+  padding: 15px;
+}
+.name-to-binary .box .main .form button {
+  padding: 15px;
+  border: none;
+  font-size: 20px;
+  background-color: #2980b9;
+  color: white;
+}
+.name-to-binary .box .main h1 {
+  color: #2980b9;
+  padding: 15px;
+}
+/* text to binary */
